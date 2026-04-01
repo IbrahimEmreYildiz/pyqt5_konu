@@ -7,7 +7,7 @@ from PyQt5.QtGui import QIcon
 
 class MyWindow(QMainWindow):
     def __init__(self):
-        super().__init__(MyWindow,self):
+        super().__init__(MyWindow,self)
 
         self.setWindowTitle("MetropolGYM Kayıt Formu") # Uygulamanın ismini ayarlar
         self.setGeometry(400, 400, 800, 500) # Yatayda 400 Dikeyda 400 boşluk bırakır pencere boyutu da 800'e 500 olur Önce yatay yazılır
