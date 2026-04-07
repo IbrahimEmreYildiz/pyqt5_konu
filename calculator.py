@@ -11,7 +11,7 @@ class MainForm(QMainWindow):
         super(MainForm,self).__init__()
 
         self.setWindowTitle("Calculator")
-        self.setGeometry(200,200,500,500)
+        self.setGeometry(200,200,501,500)
         self.setWindowIcon(QIcon("calculator_icon.jpg"))
         self.initUI()
 
